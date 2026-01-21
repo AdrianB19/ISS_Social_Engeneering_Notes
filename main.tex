@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper, oneside]{article}
+% imports 
+\usepackage{graphicx} % Required for inserting images
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage[colorlinks = true, linkcolor = black, urlcolor = blue]{hyperref}
+\usepackage[margin=1.5cm]{geometry} % Imposta tutti i margini a 1.5cm
+\usepackage{siunitx} % Pacchetto per la gestione delle unità di misura
+\usepackage[nottoc]{tocbibind} % Aggiunge la bibliografia al TOC
+\usepackage{fixltx2e} %usare formule
+\usepackage{chemformula}
+\usepackage{subcaption}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{float} % per [H] se vuoi forzare la posizione
+\geometry{a4paper, margin=0.5in}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{biblatex}
+\captionsetup{skip=2pt}
+\setlength{\textfloatsep}{4pt}
+\setlength{\floatsep}{4pt}
+
+% Imposta il colore degli URL
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,     % colore dei link interni
+    filecolor=black,  % colore dei link verso file
+    urlcolor=black,      % colore degli URL
+}
+
+\linespread{1}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vfill
+    \includegraphics[width=12cm]{source/images/polito_logo.jpg}
+    
+    \vspace{1cm}
+    {\LARGE Information Systems Security 02TYMWQ}
+    
+    \vspace{1cm}
+    {\LARGE \textbf{Social Engeneering Module}}
+    
+    \vspace{1cm}
+    {\LARGE Accademic Year 2025/2026}
+     \vspace{1cm}
+    
+    \vspace{0.3cm}
+    {\large Adrian Boniolo S356966}
+    
+    \vspace{2cm}
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\input{source/sections/section1.tex}
+\input{source/sections/section2.tex}
+\pagebreak
+
+\end{document}
